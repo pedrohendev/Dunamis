@@ -31,13 +31,12 @@ div.container-header {
     justify-content: space-between;
     flex-flow: row wrap;
     align-items: center;
-    padding: 5px;
 }
 
 header {
     font-family: "Playfair Display", serif;
 
-    flex: 1 1 200px;
+    flex: 1 1 100px;
 }
 
 header > h1 {
@@ -49,7 +48,7 @@ header > h1 {
 nav {
     font-family: "Open Sans", sans-serif;
 
-    flex: 1 1 400px;
+    flex: 1 1 300px;
 }
 
 nav ul, li {
@@ -70,21 +69,15 @@ nav > ul > li > a:hover {
 }
 
 div.imagem-logo {
-
-}
-
-div.imagem-logo > a > img {
-
+    align-self: center;
+    padding: 0px 5px;
+    flex: none;
 }
 
 div.main {
     background-color: white;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     display: flex;
-    justify-items: center;
+    justify-content: space-between;
     flex-flow: row nowrap;
     align-items: center;
     margin: 20px;
@@ -92,7 +85,6 @@ div.main {
 }
 
 main {
-    background-image: url();
     height: 90vh;
     width: 100vw;
     margin: 20px;
@@ -100,10 +92,11 @@ main {
 }
 
 main > h1, p {
-    margin-left: 30px;
+    margin: auto;
 }
 
 main > h1 {
+    width: 350px;
     color: black;
     font-family: "Playfair Display", serif;
     font-size: 2.5em;
@@ -111,7 +104,7 @@ main > h1 {
     padding: 10px;
 }
 
-main > p{
+main > p {
     width: 350px;
     font-family: "Playwrite MX", cursive;
     font-size: em;
@@ -136,7 +129,7 @@ main > p > a:hover {
 
 div.main > div.imagem-main {
     background-color: #ddb892;
-    width: 50vw;
+    width: 70vw;
     height: 100vh;
 }
 
