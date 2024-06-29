@@ -18,7 +18,7 @@ Paleta de cores:
 }
 
 body {
-    background-image: url(imagem/Imagem\ do\ WhatsApp\ de\ 2024-06-27\ à\(s\)\ 15.46.18_0214694d.jpg);
+    background-image: url(imagem/StockCake-Illuminated\ Minimalist\ Design_1719620945.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,12 +42,12 @@ header {
 
 header > h1 {
     font-family: "Playfair Display", serif;
-    color: white;
+    color: #ddb892;
     padding: 0px 20px;
 }
 
 nav {
-    font-family: "Playfair Display", serif;
+    font-family: "Open Sans", sans-serif;
 
     flex: 1 1 400px;
 }
@@ -58,8 +58,9 @@ nav ul, li {
 }
 
 nav > ul > li > a {
+    font-size: 0.8em;
     text-decoration: none;
-    color: #ffadc6;
+    color: white;
     padding: 0px 20px;
 }
 
@@ -111,7 +112,7 @@ main > h1 {
 }
 
 main > p{
-    width: 400px;
+    width: 350px;
     font-family: "Playwrite MX", cursive;
     font-size: em;
     text-align: justify;
@@ -129,8 +130,8 @@ main > p > a {
 }
 
 main > p > a:hover {
-    color: black;
-    border: 1px solid black;
+    color: #ddb892;
+    border: 1px solid #ddb892;
 }
 
 div.main > div.imagem-main {
