@@ -21,7 +21,7 @@ body {
     background-image: url(imagem/StockCake-Illuminated\ Minimalist\ Design_1719620945.jpg);
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
 }
 
