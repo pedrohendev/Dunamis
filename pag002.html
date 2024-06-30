@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunamis</title>
+    <link rel="stylesheet" href="css/pag002.css">
+</head>
+
+<body>
+    <div class="container-header">
+        <header>
+            <h1>Dunamis</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                    <a href="">Serviços</a>
+                    <a href="">Sobre</a>
+                    <a href="">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="imagem-logo">
+            <a href="https://www.instagram.com/dunamissa/" target="_blank"><img src="imagem/fotoiconeinstagram.png"
+                    alt="Instagram"></a>
+        </div>
+    </div>
+    <div class="main">
+        <main>
+            <h1>Calcular Metro Quadrado</h1>
+            <form id="areaForm">
+                <label for="width">Largura (m):</label>
+                <input type="number" id="width" name="width" required>
+                <br><br>
+                <label for="length">Comprimento (m):</label>
+                <input type="number" id="length" name="length" required>
+                <br><br>
+                <label for="tipoLimpeza">Tipo de Limpeza:</label>
+                <select id="tipoLimpeza" name="tipoLimpeza" required>
+                    <option value="comum">Limpeza Comum</option>
+                    <option value="posObra">Limpeza Pós-Obra</option>
+                </select>
+                <br><br>
+                <button type="submit">Calcular</button>
+            </form>
+            <p id="result"></p>
+        </main>
+            <div class="imagem-main">
+
+            </div>
+    </div>
+    <script src="javascript/pag002.js"></script>
+</body>
+
+</html>

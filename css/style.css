@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/*
+Paleta de cores: 
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagem/fotofundo.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+div.container-header {
+    background-color: #242423;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+header {
+    font-family: "Playfair Display", serif;
+
+    flex: 1 1 100px;
+}
+
+header > h1 {
+    font-family: "Playfair Display", serif;
+    color: #ddb892;
+    padding: 0px 20px;
+}
+
+nav {
+    font-family: "Open Sans", sans-serif;
+
+    flex: 1 1 300px;
+}
+
+nav ul, li {
+    list-style-type: none;
+
+}
+
+nav > ul > li > a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+div.imagem-logo {
+    align-self: center;
+    padding: 0px 5px;
+    flex: none;
+}
+
+div.main {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 20px;
+    height: 100vh;
+}
+
+main {
+    height: 90vh;
+    width: 100vw;
+    margin: 20px;
+    flex-flow: auto;
+}
+
+main > h1, p {
+    margin: auto;
+}
+
+main > h1 {
+    width: 350px;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-size: 2.5em;
+    text-align: justify;
+    padding: 10px;
+}
+
+main > p {
+    width: 350px;
+    font-family: "Playwrite MX", cursive;
+    font-size: em;
+    text-align: justify;
+    padding: 10px;
+}
+
+main > p > a {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #ffadc6;
+    border-radius: 8px;
+    color: #ffadc6;
+}
+
+main > p > a:hover {
+    color: #ddb892;
+    border: 1px solid #ddb892;
+}
+
+div.main > div.imagem-main {
+    background-color: #ddb892;
+    width: 70vw;
+    height: 100vh;
+}
+

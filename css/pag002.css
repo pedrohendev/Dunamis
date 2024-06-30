@@ -18,7 +18,7 @@ Paleta de cores:
 }
 
 body {
-    background-image: url(imagem/StockCake-Illuminated\ Minimalist\ Design_1719620945.jpg);
+    background-image: url(../imagem/fotofundo.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: auto;
@@ -91,6 +91,13 @@ main {
     flex-flow: auto;
 }
 
+main > form, p {
+    padding: 20px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
 main > h1, p {
     margin: auto;
 }
@@ -110,21 +117,6 @@ main > p {
     font-size: em;
     text-align: justify;
     padding: 10px;
-}
-
-main > p > a {
-    font-size: 20px;
-    font-family: "Open Sans", sans-serif;
-    text-decoration: none;
-    padding: 5px;
-    border: 1px solid #ffadc6;
-    border-radius: 8px;
-    color: #ffadc6;
-}
-
-main > p > a:hover {
-    color: #ddb892;
-    border: 1px solid #ddb892;
 }
 
 div.main > div.imagem-main {
