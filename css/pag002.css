@@ -92,10 +92,17 @@ main {
 }
 
 main > form, p {
+
     padding: 20px;
     display: block;
     text-align: center;
     margin: auto;
+}
+
+main > form {
+    border-radius: 7px;
+    border: 2px solid #ddb892;
+    text-align: left;
 }
 
 main > h1, p {
@@ -107,7 +114,7 @@ main > h1 {
     color: black;
     font-family: "Playfair Display", serif;
     font-size: 2.5em;
-    text-align: justify;
+    text-align: center;
     padding: 10px;
 }
 

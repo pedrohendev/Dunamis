@@ -136,5 +136,7 @@ div.main > div.imagem-main {
 footer {
     background-color: #242423;
     text-align: center;
-    color: white;
+    font-family: "Playfair Display", serif;
+    color: #ddb892;
+    padding: 0px 20px;
 }
