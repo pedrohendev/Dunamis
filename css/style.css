@@ -86,7 +86,7 @@ div.main {
 
 main {
     height: 90vh;
-    width: 100vw;
+    width: 80vw;
     margin: 20px;
     flex-flow: auto;
 }
@@ -133,3 +133,8 @@ div.main > div.imagem-main {
     height: 100vh;
 }
 
+footer {
+    background-color: #242423;
+    text-align: center;
+    color: white;
+}
