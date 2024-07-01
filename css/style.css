@@ -27,6 +27,7 @@ body {
 
 div.container-header {
     background-color: #242423;
+
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
@@ -35,32 +36,27 @@ div.container-header {
 
 header {
     font-family: "Playfair Display", serif;
-
-    flex: 1 1 100px;
+    flex: 1 1 300px;
 }
 
 header > h1 {
-    font-family: "Playfair Display", serif;
     color: #ddb892;
     padding: 0px 20px;
 }
 
 nav {
     font-family: "Open Sans", sans-serif;
-
     flex: 1 1 300px;
-}
-
-nav ul, li {
-    list-style-type: none;
-
+    align-self: center;
+    text-align: end;
+    padding: 15px;
 }
 
 nav > ul > li > a {
     font-size: 0.8em;
     text-decoration: none;
     color: white;
-    padding: 0px 20px;
+    padding: 5px 20px;
 }
 
 nav > ul > li > a:hover {
@@ -68,48 +64,40 @@ nav > ul > li > a:hover {
     color: white;
 }
 
-div.imagem-logo {
-    align-self: center;
-    padding: 0px 5px;
-    flex: none;
+nav ul, li {
+    list-style-type: none;
 }
 
-div.main {
+div.container-main {
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-flow: row nowrap;
     align-items: center;
-    margin: 20px;
+    margin: 30px;
     height: 100vh;
+    border-radius: 20px;
 }
 
 main {
-    height: 90vh;
-    width: 80vw;
-    margin: 20px;
-    flex-flow: auto;
+    height: 80vh;
 }
 
 main > h1, p {
     margin: auto;
+    width: 350px;
+    text-align: justify;
+    padding: 10px;
 }
 
 main > h1 {
-    width: 350px;
     color: black;
     font-family: "Playfair Display", serif;
     font-size: 2.5em;
-    text-align: justify;
-    padding: 10px;
 }
 
 main > p {
-    width: 350px;
     font-family: "Playwrite MX", cursive;
-    font-size: em;
-    text-align: justify;
-    padding: 10px;
 }
 
 main > p > a {
@@ -127,16 +115,23 @@ main > p > a:hover {
     border: 1px solid #ddb892;
 }
 
-div.main > div.imagem-main {
-    background-color: #ddb892;
-    width: 70vw;
-    height: 100vh;
+div.container-footer {
+    background-color: #242423;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    padding: 10px;
 }
 
 footer {
-    background-color: #242423;
-    text-align: center;
     font-family: "Playfair Display", serif;
     color: #ddb892;
+    padding: 0px 20px;
+    flex: 0 1 auto;
+}
+
+div.imagem-media-social {
+    text-align: end;
     padding: 0px 20px;
 }
