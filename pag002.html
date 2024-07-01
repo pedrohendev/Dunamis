@@ -30,13 +30,13 @@
     </div>
     <div class="main">
         <main>
-            <h1>Calcular Metro Quadrado</h1>
+            <h1>Calcule o preço do serviço</h1>
             <form id="areaForm">
-                <label for="width">Largura (m):</label>
-                <input type="number" id="width" name="width" required>
+                <label for="largura">Largura (m):</label>
+                <input type="number" id="largura" name="largura" required>
                 <br><br>
-                <label for="length">Comprimento (m):</label>
-                <input type="number" id="length" name="length" required>
+                <label for="comprimento">Comprimento (m):</label>
+                <input type="number" id="comprimento" name="comprimento" required>
                 <br><br>
                 <label for="tipoLimpeza">Tipo de Limpeza:</label>
                 <select id="tipoLimpeza" name="tipoLimpeza" required>
@@ -44,9 +44,9 @@
                     <option value="posObra">Limpeza Pós-Obra</option>
                 </select>
                 <br><br>
-                <button type="submit">Calcular</button>
+                <input type="button" value="Calcular" onclick="calcular()">
             </form>
-            <p id="result"></p>
+            <p id="res"></p>
         </main>
             <div class="imagem-main">
 
