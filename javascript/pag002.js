@@ -1,18 +1,15 @@
 function calcular() {
-  var largura = parseFloat(document.getElementById("largura").value);
-  var comprimento = parseFloat(document.getElementById("comprimento").value);
+  var precoLimpezaComum = 10
+  var precoLimpezaPosObra = 14
   var tipoLimpeza = String(document.getElementById("tipoLimpeza").value);
-  var area = largura * comprimento;
-  var precoLimpezaComum = 10;
-  var precoLimpezaPosObra = 14;
-  var total;
+  var metro = Number(document.getElementById('metro').value)
   if (tipoLimpeza == "comum") {
-    total = area * precoLimpezaComum;
+    total = metro * precoLimpezaComum;
   } else if (tipoLimpeza == "posObra") {
-    total = area * precoLimpezaPosObra;
+    total = metro * precoLimpezaPosObra;
   }
   res.style.currency = "BRL";
-  res.innerHTML = `A área é ${area} metros quadrados. O custo total para ${
+  res.innerHTML = `A área é ${metro} metros quadrados. O custo total para ${
     tipoLimpeza === "comum" ? "limpeza comum" : "limpeza pós-obra"
   } é ${total.toFixed(2).replace(".", ",")}.`;
 }
