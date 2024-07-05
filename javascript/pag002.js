@@ -11,7 +11,6 @@ function calcular() {
       } else if (tipoLimpeza == "posObra") {
         total = metro * precoLimpezaPosObra
       }
-
     res.style.currency = "BRL";
     res.innerHTML = `A área é ${metro} metros quadrados. O custo total para ${tipoLimpeza === "comum" ? "limpeza comum" : "limpeza pós-obra"} é ${total.toFixed(2).replace(".", ",")}.`;
 }
