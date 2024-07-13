@@ -219,7 +219,7 @@ img {
 }
 
 /* Navigation for mobile devices */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1150px) {
     .nav__menu {
         position: fixed;
         top: -100%;
@@ -1036,7 +1036,7 @@ img {
 }
 
 /* For large devices */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1150px) {
     .container {
         margin-inline: auto;
     }
