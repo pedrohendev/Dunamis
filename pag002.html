@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunamis</title>
+    <link rel="stylesheet" href="css/pag002.css">
+</head>
+
+<body>
+    <div class="container-header">
+        <header>
+            <h1><a href="index.html">Dunamis</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                    <a href="">Serviços</a>
+                    <a href="">Sobre</a>
+                    <a href="">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container-main">
+        <main>
+            <h1>Calcule o preço do serviço</h1>
+            <form id="areaForm">
+                <label for="metro">Métro:</label>
+                <input type="number" id="metro" name="metro" required>
+                <select id="tipoLimpeza" name="tipoLimpeza" required>
+                    <option value="comum">Limpeza Comum</option>
+                    <option value="posObra">Limpeza Pós-Obra</option>
+                </select>
+                <br><br>
+                <input type="button" value="Calcular" onclick="calcular()">
+            </form>
+            <p id="res">
+                Digite um número!
+            </p>
+        </main>
+    </div>
+    <div class="container-footer">
+        <footer>
+            <h1>agradecimento!</h1>
+        </footer>
+        <div class="imagem-media-social">
+            <a href="https://www.instagram.com/dunamissa/" target="_blank">
+                <img src="imagem/fotoiconeinstagram.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+
+    <script src="javascript/pag002.js"></script>
+</body>
+
+</html>
