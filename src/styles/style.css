@@ -219,7 +219,7 @@ img {
 }
 
 /* Navigation for mobile devices */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1000px) {
     .nav__menu {
         position: fixed;
         top: -100%;
